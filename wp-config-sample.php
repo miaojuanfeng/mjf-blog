@@ -15,13 +15,13 @@
 
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress 数据库的名称 */
-define('DB_NAME', 'blog');
+define('DB_NAME', 'database_name_here');
 
 /** MySQL 数据库用户名 */
-define('DB_USER', 'root');
+define('DB_USER', 'username_here');
 
 /** MySQL 数据库密码 */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'password_here');
 
 /** MySQL 主机 */
 define('DB_HOST', 'localhost');
@@ -41,14 +41,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'G4dY[P(1v,[2l{ G:ToEdbWuz`J):)Hw 8fjK]-^fI,T]a*z[>P2vbcTkoV!-}lR');
-define('SECURE_AUTH_KEY',  'G&mvGnAW<K*.,l#Cl-a_E1&cDNx~pfgEPagDR}c6NqE$68EmU%w[<+oOZ4!g.izs');
-define('LOGGED_IN_KEY',    '59-`El,LfqAfJ=V9{GVy,8PFE](nMO7C:p7sE[OHL88],rPs^~f&8+Q_y:4`ypl!');
-define('NONCE_KEY',        '.]B[z&>YrRO:J`59=h{m9=Vn%k{khx2EkD!d@@rSWi;`}NNmAx2xVE0dOp$tudS)');
-define('AUTH_SALT',        'HCq.2IHoT)%{^{xy-jcic4(X+p.|g7IF`1C,bSoF&]Q-aS0m;dfy(OtL>SU*n3fE');
-define('SECURE_AUTH_SALT', ';R2uJ,08qY^g^*jy&Y~.1N0z;0pMQzZ~!nN!8f}UT@-<OfQ?09&aYm<3MAb@@TqM');
-define('LOGGED_IN_SALT',   'Wiw5B<|,-F0Q-xWH0x9EME8C^GC?ggU$p!bLg!/Jj]7jF2[6R5e<;]?k> w2>|DZ');
-define('NONCE_SALT',       'z$&F?OpP%aR>*5LLLLwBI[=]#MPS58cEEtCd~u6(_v*<kj}BPXC4=Xmyb{ca@ww1');
+define('AUTH_KEY',         'put your unique phrase here');
+define('SECURE_AUTH_KEY',  'put your unique phrase here');
+define('LOGGED_IN_KEY',    'put your unique phrase here');
+define('NONCE_KEY',        'put your unique phrase here');
+define('AUTH_SALT',        'put your unique phrase here');
+define('SECURE_AUTH_SALT', 'put your unique phrase here');
+define('LOGGED_IN_SALT',   'put your unique phrase here');
+define('NONCE_SALT',       'put your unique phrase here');
 
 /**#@-*/
 

@@ -27,7 +27,6 @@
  * @return string The string replaced with html entities
  */
 function wptexturize($text) {
-    return $text;
 	global $wp_cockneyreplace;
 	static $static_characters, $static_replacements, $dynamic_characters, $dynamic_replacements,
 		$default_no_texturize_tags, $default_no_texturize_shortcodes;
